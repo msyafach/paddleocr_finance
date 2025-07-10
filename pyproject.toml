@@ -1,0 +1,13 @@
+[project]
+name = "ocr-table2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "paddleocr>=3.1.0",
+    "paddlepaddle>=3.1.0",
+    "pymupdf>=1.26.3",
+    "requests>=2.32.4",
+    "setuptools>=80.9.0",
+]

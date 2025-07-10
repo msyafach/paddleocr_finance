@@ -1,0 +1,46 @@
+{
+    "models": {
+        "layout_detection":[
+        {
+            "name":"PP-DocLayout-M",
+            "dir":"ocr_models/PP-DocLayout-M_infer"
+        },
+        {
+            "name":"PP-DocLayout_plus-L",
+            "dir":"ocr_models/PP-DocLayout_plus-L_infer"
+        },
+        {
+            "name":"PP-DocBlockLayout",
+            "dir":"ocr_models/PP-DocBlockLayout_infer"
+        }
+        ],
+        "text_detection":{
+            "name": "PP-OCRv5_mobile_det",
+            "dir": "ocr_models/PP-OCRv5_mobile_det_infer"
+        },
+        "text_recognition": {
+            "name": "PP-OCRv5_mobile_rec",
+            "dir": "ocr_models/PP-OCRv5_mobile_rec_infer"
+        },
+        "table_classification": {
+            "name": "PP-LCNet_x1_0_table_cls",
+            "dir": "ocr_models/PP-LCNet_x1_0_table_cls_infer"
+        },
+        "wired_table_structure_recognition": {
+            "name": "SLANeXt_wired",
+            "dir": "ocr_models/SLANeXt_wired_infer"
+        },
+        "wireless_table_structure_recognition": {
+            "name": "SLANeXt_wireless",
+            "dir": "ocr_models/SLANeXt_wireless_infer"
+        },
+        "wired_table_cells_detection": {
+            "name": "RT-DETR-L_wired_table_cell_det",
+            "dir": "ocr_models/RT-DETR-L_wired_table_cell_det_infer"
+        },
+        "wireless_table_cells_detection": {
+            "name": "RT-DETR-L_wireless_table_cell_det",
+            "dir": "ocr_models/RT-DETR-L_wireless_table_cell_det_infer"
+        }
+    }
+}
