@@ -8,6 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+venv
+wsl
 
 #data folders
 data
@@ -16,4 +18,12 @@ ocr_models
 output
 output_2
 output_3
+output_aadi
+output_aali
+PaddleX
+PPOCRLabel
+aadi_combine.pdf
+aali_combine.pdf
+cell
+table
 
